@@ -6,26 +6,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-## Build Project
-<b>clone project</b>
-git clone https://github.com/Levanduc1999/ComputerWebsite.git --branch master
-<b>create file .env and copy content file .env.example to .env</b>
-cp .env.example .env
-<b>Fix .env</b>
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=<your_db>
-DB_USERNAME=<your_mysql_username>
-DB_PASSWORD=<your_mysql_pw>
-<b>Install composer</b>
-composer install
-<b>Create table in database</b>
-php artisan migrate
-<b>Finish</b>
-php artisan serve --port=3000
-php artisan key:generate
-Go to broser localhost:3000
+## Build Project<br>
+<b>clone project</b><br>
+git clone https://github.com/Levanduc1999/ComputerWebsite.git --branch master<br>
+<b>create file .env and copy content file .env.example to .env</b><br>
+cp .env.example .env<br>
+<b>Fix .env</b><br>
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=<your_db><br>
+DB_USERNAME=<your_mysql_username><br>
+DB_PASSWORD=<your_mysql_pw><br>
+<b>Install composer</b><br>
+composer install<br>
+<b>Create table in database</b><br>
+php artisan migrate<br>
+<b>Finish</b><br>
+php artisan serve --port=3000<br>
+php artisan key:generate<br>
+Go to broser localhost:3000<br>
  
 ## About Laravel
 
